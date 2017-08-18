@@ -140,27 +140,27 @@ class iCreditCard: UIView {
     
     
     convenience init(){
-        self.init(cardStyleWithBackgroundColor: .withDefaultTitles, withCardColors: .yelloway, pinIcon: .chip1)
+        self.init(cardStyleWithBackgroundColor: .withBothBankIcon, withCardColors: .yelloway, pinIcon: .chip1, creditIcons: .cirrusIcon)
     }
     
     convenience init(cardColors: cardColors){
-        self.init(cardStyleWithBackgroundColor: .withDefaultTitles, withCardColors: cardColors, pinIcon: .chip1)
+        self.init(cardStyleWithBackgroundColor: .withBothBankIcon, withCardColors: .yelloway, pinIcon: .chip2, creditIcons: .americanExpressIcon)
     }
     
-    init(cardStyleWithBackgroundColor: cardStyle , withCardColors colors: cardColors , pinIcon: chipIcons){
+    init(cardStyleWithBackgroundColor: cardStyle , withCardColors colors: cardColors , pinIcon: chipIcons , creditIcons: creditIcons){
         super.init(frame: CGRect())
-        addItemsWithColors(cardStyleWithBackgroundColor, colors: colors, chipIcon: pinIcon)
+        addItemsWithColors(cardStyleWithBackgroundColor, colors: colors, chipIcon: pinIcon, creditIcon: creditIcons)
         settingForLayout(cardStyle: cardStyleWithBackgroundColor, cardVisual: cardVisual.withBackgroundColor, withSeparator: true)
     }
     
-    init(cardStyleWithBackgroundImage: cardStyle , withCardImage: UIImage?, pinIcon: chipIcons){
+    init(cardStyleWithBackgroundImage: cardStyle , withCardImage: UIImage?, pinIcon: chipIcons , creditIcons: creditIcons){
         super.init(frame: CGRect())
-        addItemsWithImage(cardStyleWithBackgroundImage, chipIcon: pinIcon)
+        addItemsWithImage(cardStyleWithBackgroundImage, chipIcon: pinIcon, creditIcon: creditIcons)
         settingForLayout(cardStyle: cardStyleWithBackgroundImage, cardVisual: cardVisual.withBackgroundImage, withSeparator: true)
     }
     
     
-    fileprivate func addItemsWithImage(_ cardStyle: cardStyle, chipIcon: chipIcons){
+    fileprivate func addItemsWithImage(_ cardStyle: cardStyle, chipIcon: chipIcons , creditIcon: creditIcons){
         self.addSubview(contentView)
         self.addSubview(backgroundImageView)
         self.addSubview(bankNameLabel)
@@ -198,7 +198,7 @@ class iCreditCard: UIView {
         
     }
     
-    fileprivate func addItemsWithColors(_ cardStyle: cardStyle , colors: cardColors , chipIcon: chipIcons){
+    fileprivate func addItemsWithColors(_ cardStyle: cardStyle , colors: cardColors , chipIcon: chipIcons , creditIcon: creditIcons){
         self.addSubview(contentView)
         self.addSubview(bankNameLabel)
         self.addSubview(creditCardButton)
@@ -228,7 +228,7 @@ class iCreditCard: UIView {
         case .chip2:
             chipIconImageView.image = UIImage(named: "chip2")
         case .chip3:
-            chipIconImageView.image = UIImage(named: "chip1")
+            chipIconImageView.image = UIImage(named: "chip3")
         }
         
         self.addSubview(topSeparator)

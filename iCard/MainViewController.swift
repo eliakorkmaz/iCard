@@ -15,9 +15,12 @@ class MainViewController: UIViewController{
         
         self.view.backgroundColor = UIColor.white
         
-        let cardTest1: iCreditCard = iCreditCard(cardStyleWithBackgroundColor: .withBothBankIcon, withCardColors: .yelloway, pinIcon: .chip1)
+        /*let cardTest1: iCreditCard = iCreditCard(cardStyleWithBackgroundColor: .withBothBankIcon, withCardColors: .yelloway, pinIcon: .chip1)
         let cardTest2: iCreditCard = iCreditCard(cardStyleWithBackgroundColor: .withTopBankIcon, withCardColors: .blueway, pinIcon: .chip2)
-        let cardTest3: iCreditCard = iCreditCard(cardStyleWithBackgroundImage: .withBothBankIcon, withCardImage: UIImage(named:"simpleBackgroundImage"), pinIcon: .chip3)
+        let cardTest3: iCreditCard = iCreditCard(cardStyleWithBackgroundImage: .withBothBankIcon, withCardImage: UIImage(named:"simpleBackgroundImage"), pinIcon: .chip3)*/
+        let cardTest1: iCreditCard = iCreditCard(cardStyleWithBackgroundColor: .withBothBankIcon, withCardColors: .yelloway, pinIcon: .chip2, creditIcons: .americanExpressIcon)
+        let cardTest2: iCreditCard = iCreditCard(cardStyleWithBackgroundColor: .withBothBankIcon, withCardColors: .yelloway, pinIcon: .chip1, creditIcons: .cirrusIcon)
+        let cardTest3: iCreditCard = iCreditCard(cardStyleWithBackgroundColor: .withDefaultTitles, withCardColors: .blueway, pinIcon: .chip3, creditIcons: .visaIcon)
         
         view.addSubview(cardTest1)
         view.addSubview(cardTest2)
