@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1BCC8C1F41812600C2CA57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1BCC8B1F41812600C2CA57 /* AppDelegate.swift */; };
+		AA1BCC911F41812600C2CA57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1BCC8F1F41812600C2CA57 /* Main.storyboard */; };
+		AA1BCC931F41812600C2CA57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1BCC921F41812600C2CA57 /* Assets.xcassets */; };
+		AA1BCC961F41812600C2CA57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1BCC941F41812600C2CA57 /* LaunchScreen.storyboard */; };
+		AA37FBA21F41A994000CED54 /* iCreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA37FBA11F41A994000CED54 /* iCreditCard.swift */; };
+		AA37FBAA1F41F830000CED54 /* HALTER__.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA37FBA91F41F830000CED54 /* HALTER__.ttf */; };
+		AACE4E671F4182C0001DF055 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACE4E661F4182C0001DF055 /* MainViewController.swift */; };
+		E43EF1902AEBADED393EC5B8 /* Pods_iCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E836BA5F292CDA7ABE9F5C /* Pods_iCard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20E836BA5F292CDA7ABE9F5C /* Pods_iCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1BCC881F41812600C2CA57 /* iCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1BCC8B1F41812600C2CA57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = iCard/AppDelegate.swift; sourceTree = "<group>"; };
+		AA1BCC901F41812600C2CA57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA1BCC921F41812600C2CA57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = iCard/Assets.xcassets; sourceTree = "<group>"; };
+		AA1BCC951F41812600C2CA57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA1BCC971F41812600C2CA57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = iCard/Info.plist; sourceTree = "<group>"; };
+		AA37FBA11F41A994000CED54 /* iCreditCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iCreditCard.swift; path = iCard/iCreditCard.swift; sourceTree = "<group>"; };
+		AA37FBA91F41F830000CED54 /* HALTER__.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HALTER__.ttf; sourceTree = "<group>"; };
+		AACE4E661F4182C0001DF055 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = iCard/MainViewController.swift; sourceTree = "<group>"; };
+		C69CB905164D636D0F1F4F6A /* Pods-iCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCard/Pods-iCard.debug.xcconfig"; sourceTree = "<group>"; };
+		D2B0143F87AFE6AE762D02CC /* Pods-iCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-iCard/Pods-iCard.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1BCC851F41812600C2CA57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43EF1902AEBADED393EC5B8 /* Pods_iCard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27B1F3B9DD253450BB467A1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C69CB905164D636D0F1F4F6A /* Pods-iCard.debug.xcconfig */,
+				D2B0143F87AFE6AE762D02CC /* Pods-iCard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4BA263C4CC22CA876DBB2C67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20E836BA5F292CDA7ABE9F5C /* Pods_iCard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA1BCC7F1F41812600C2CA57 = {
+			isa = PBXGroup;
+			children = (
+				AA37FBAF1F41F900000CED54 /* Plist */,
+				AA37FBAE1F41F8F7000CED54 /* Delegate */,
+				AA37FBAD1F41F8E4000CED54 /* Storyboard */,
+				AA37FBAC1F41F8DC000CED54 /* Assets */,
+				AA37FBAB1F41F8C4000CED54 /* Controller */,
+				AA1BCC8A1F41812600C2CA57 /* iCard */,
+				AA1BCC891F41812600C2CA57 /* Products */,
+				27B1F3B9DD253450BB467A1B /* Pods */,
+				4BA263C4CC22CA876DBB2C67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA1BCC891F41812600C2CA57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1BCC881F41812600C2CA57 /* iCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA1BCC8A1F41812600C2CA57 /* iCard */ = {
+			isa = PBXGroup;
+			children = (
+				AA37FBA31F41F298000CED54 /* Font */,
+			);
+			path = iCard;
+			sourceTree = "<group>";
+		};
+		AA37FBA31F41F298000CED54 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				AA37FBA91F41F830000CED54 /* HALTER__.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		AA37FBAB1F41F8C4000CED54 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AACE4E661F4182C0001DF055 /* MainViewController.swift */,
+				AA37FBA11F41A994000CED54 /* iCreditCard.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AA37FBAC1F41F8DC000CED54 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AA1BCC921F41812600C2CA57 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		AA37FBAD1F41F8E4000CED54 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AA1BCC941F41812600C2CA57 /* LaunchScreen.storyboard */,
+				AA1BCC8F1F41812600C2CA57 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		AA37FBAE1F41F8F7000CED54 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AA1BCC8B1F41812600C2CA57 /* AppDelegate.swift */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		AA37FBAF1F41F900000CED54 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				AA1BCC971F41812600C2CA57 /* Info.plist */,
+			);
+			name = Plist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1BCC871F41812600C2CA57 /* iCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1BCC9A1F41812600C2CA57 /* Build configuration list for PBXNativeTarget "iCard" */;
+			buildPhases = (
+				E4B614B432B2AE5976468367 /* [CP] Check Pods Manifest.lock */,
+				AA1BCC841F41812600C2CA57 /* Sources */,
+				AA1BCC851F41812600C2CA57 /* Frameworks */,
+				AA1BCC861F41812600C2CA57 /* Resources */,
+				E61640EFDF1321DCC0C499DE /* [CP] Embed Pods Frameworks */,
+				EF8ECD71689AE3371EF58E0F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCard;
+			productName = iCard;
+			productReference = AA1BCC881F41812600C2CA57 /* iCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1BCC801F41812600C2CA57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = EmrahKorkmaz;
+				TargetAttributes = {
+					AA1BCC871F41812600C2CA57 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AA1BCC831F41812600C2CA57 /* Build configuration list for PBXProject "iCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA1BCC7F1F41812600C2CA57;
+			productRefGroup = AA1BCC891F41812600C2CA57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1BCC871F41812600C2CA57 /* iCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1BCC861F41812600C2CA57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA37FBAA1F41F830000CED54 /* HALTER__.ttf in Resources */,
+				AA1BCC961F41812600C2CA57 /* LaunchScreen.storyboard in Resources */,
+				AA1BCC931F41812600C2CA57 /* Assets.xcassets in Resources */,
+				AA1BCC911F41812600C2CA57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B614B432B2AE5976468367 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E61640EFDF1321DCC0C499DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iCard/Pods-iCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF8ECD71689AE3371EF58E0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iCard/Pods-iCard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1BCC841F41812600C2CA57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1BCC8C1F41812600C2CA57 /* AppDelegate.swift in Sources */,
+				AACE4E671F4182C0001DF055 /* MainViewController.swift in Sources */,
+				AA37FBA21F41A994000CED54 /* iCreditCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA1BCC8F1F41812600C2CA57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA1BCC901F41812600C2CA57 /* Base */,
+			);
+			name = Main.storyboard;
+			path = iCard;
+			sourceTree = "<group>";
+		};
+		AA1BCC941F41812600C2CA57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA1BCC951F41812600C2CA57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = iCard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA1BCC981F41812600C2CA57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA1BCC991F41812600C2CA57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA1BCC9B1F41812600C2CA57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C69CB905164D636D0F1F4F6A /* Pods-iCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrah.iCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA1BCC9C1F41812600C2CA57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B0143F87AFE6AE762D02CC /* Pods-iCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrah.iCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1BCC831F41812600C2CA57 /* Build configuration list for PBXProject "iCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1BCC981F41812600C2CA57 /* Debug */,
+				AA1BCC991F41812600C2CA57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1BCC9A1F41812600C2CA57 /* Build configuration list for PBXNativeTarget "iCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1BCC9B1F41812600C2CA57 /* Debug */,
+				AA1BCC9C1F41812600C2CA57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA1BCC801F41812600C2CA57 /* Project object */;
+}
