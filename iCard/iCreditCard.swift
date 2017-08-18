@@ -176,6 +176,8 @@ class iCreditCard: UIView {
         
         if cardStyle == .withBothBankIcon{
             self.addSubview(cardBrandImageView)
+            
+            
             self.addSubview(cardBrandImageViewBottom)
         }else if cardStyle == .withTopBankIcon{
             self.addSubview(cardBrandImageView)
@@ -213,11 +215,16 @@ class iCreditCard: UIView {
         
         if cardStyle == .withBothBankIcon{
             self.addSubview(cardBrandImageView)
+            cardBrandImageView.image = creditIconImage(creditIcon: creditIcon)
+            
             self.addSubview(cardBrandImageViewBottom)
+            cardBrandImageViewBottom.image = creditIconImage(creditIcon: creditIcon)
         }else if cardStyle == .withTopBankIcon{
             self.addSubview(cardBrandImageView)
+            cardBrandImageView.image = creditIconImage(creditIcon: creditIcon)
         }else if cardStyle == .withBottomBankIcon{
             self.addSubview(cardBrandImageViewBottom)
+            cardBrandImageViewBottom.image = creditIconImage(creditIcon: creditIcon)
         }else{
             // nothing will be added
         }
@@ -431,5 +438,56 @@ public enum chipIcons{
 extension UIColor{
     convenience init(r: Float, g: Float , b: Float , alpha: Int) {
         self.init(red: CGFloat(r/255), green: CGFloat(g/255), blue: CGFloat(b/255), alpha: CGFloat(alpha))
+    }
+}
+
+extension iCreditCard{
+    fileprivate func creditIconImage(creditIcon toImage: creditIcons) -> UIImage{
+        switch toImage {
+        case .americanExpressIcon:
+            return UIImage(named: "americanExpressIcon")!
+        case .bitcoinIcon:
+            return UIImage(named: "bitcoinIcon")!
+        case .bluePayIcon:
+            return UIImage(named: "bluePayIcon")!
+        case .cirrusIcon:
+            return UIImage(named: "cirrusIcon")!
+        case .citiIcon:
+            return UIImage(named: "citiIcon")!
+        case .clickBank:
+            return UIImage(named: "clickBank")!
+        case .cvsIcon:
+            return UIImage(named: "cvsIcon")!
+        case .googleWalletIcon:
+            return UIImage(named: "googleWalletIcon")!
+        case .hsbcIcon:
+            return UIImage(named: "hsbcIcon")!
+        case .maestroIcon:
+            return UIImage(named: "maestroIcon")!
+        case .maestroIcon2:
+            return UIImage(named: "maestro2Icon")!
+        case .masterCard:
+            return UIImage(named: "masterCard")!
+        case .masterCardMini:
+            return UIImage(named: "masterCardMini")!
+        case .masterCardDetail:
+            return UIImage(named: "masterCardDetail")!
+        case .moneyGramIcon:
+            return UIImage(named: "moneygramIcon")!
+        case .paypalIcon:
+            return UIImage(named: "paypal2Icon")!
+        case .paypalIconSimple:
+            return UIImage(named: "paypalIcon")!
+        case .visaIcon:
+            return UIImage(named: "visaIcon")!
+        case .visaIconBigger:
+            return UIImage(named: "visaIconBigger")!
+        case .visaIconText:
+            return UIImage(named: "visaIconText")!
+        case .wePayIcon:
+            return UIImage(named: "wepayIcon")!
+        case .westernUnionIcon:
+            return UIImage(named: "westernUnionIcon")!
+        }
     }
 }
