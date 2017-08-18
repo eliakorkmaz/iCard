@@ -176,13 +176,18 @@ class iCreditCard: UIView {
         
         if cardStyle == .withBothBankIcon{
             self.addSubview(cardBrandImageView)
-            
+            cardBrandImageView.image = creditIconImage(creditIcon: creditIcon)
             
             self.addSubview(cardBrandImageViewBottom)
+            cardBrandImageViewBottom.image = creditIconImage(creditIcon: creditIcon)
+            
         }else if cardStyle == .withTopBankIcon{
             self.addSubview(cardBrandImageView)
+            cardBrandImageView.image = creditIconImage(creditIcon: creditIcon)
+            
         }else if cardStyle == .withBottomBankIcon{
             self.addSubview(cardBrandImageViewBottom)
+            cardBrandImageViewBottom.image = creditIconImage(creditIcon: creditIcon)
         }else{
             // nothing will be added
         }
