@@ -42,7 +42,7 @@ class iCreditCard: UIView {
     
     lazy var backgroundImageView: UIImageView = {
         let imageView:UIImageView = UIImageView()
-        imageView.contentMode = .scaleToFill
+        imageView.contentMode = .scaleAspectFit
         imageView.layer.masksToBounds = true
         imageView.layer.cornerRadius = 8
         imageView.image = UIImage.init(named: "simpleBackgroundImage")
@@ -114,7 +114,7 @@ class iCreditCard: UIView {
     
     lazy var cardBrandImageView: UIImageView = {
         let imageView:UIImageView = UIImageView()
-        imageView.contentMode = .scaleAspectFill
+        imageView.contentMode = .scaleAspectFit
         imageView.layer.masksToBounds = true
         imageView.layer.cornerRadius = 5
         imageView.image = UIImage.init(named: "maestro2Icon")
@@ -123,7 +123,7 @@ class iCreditCard: UIView {
     
     lazy var cardBrandImageViewBottom: UIImageView = {
         let imageView:UIImageView = UIImageView()
-        imageView.contentMode = .scaleAspectFill
+        imageView.contentMode = .scaleAspectFit
         imageView.layer.masksToBounds = true
         imageView.layer.cornerRadius = 5
         imageView.image = UIImage.init(named: "visaIcon")
