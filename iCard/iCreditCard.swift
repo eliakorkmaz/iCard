@@ -42,7 +42,7 @@ class iCreditCard: UIView {
     
     lazy var backgroundImageView: UIImageView = {
         let imageView:UIImageView = UIImageView()
-        imageView.contentMode = .scaleAspectFit
+        imageView.contentMode = .scaleToFill
         imageView.layer.masksToBounds = true
         imageView.layer.cornerRadius = 8
         imageView.image = UIImage.init(named: "simpleBackgroundImage")
