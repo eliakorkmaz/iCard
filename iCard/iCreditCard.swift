@@ -45,7 +45,6 @@ class iCreditCard: UIView {
         imageView.contentMode = .scaleToFill
         imageView.layer.masksToBounds = true
         imageView.layer.cornerRadius = 8
-        imageView.image = UIImage.init(named: "simpleBackgroundImage")
         return imageView
     }()
     
@@ -155,12 +154,13 @@ class iCreditCard: UIView {
     
     init(cardStyleWithBackgroundImage: cardStyle , withCardImage: UIImage?, pinIcon: chipIcons , creditIcons: creditIcons){
         super.init(frame: CGRect())
-        addItemsWithImage(cardStyleWithBackgroundImage, chipIcon: pinIcon, creditIcon: creditIcons)
+        addItemsWithImage(image: withCardImage, cardStyleWithBackgroundImage, chipIcon: pinIcon, creditIcon: creditIcons)
+        //addItemsWithImage(cardStyleWithBackgroundImage, chipIcon: pinIcon, creditIcon: creditIcons)
         settingForLayout(cardStyle: cardStyleWithBackgroundImage, cardVisual: cardVisual.withBackgroundImage, withSeparator: true)
     }
     
     
-    fileprivate func addItemsWithImage(_ cardStyle: cardStyle, chipIcon: chipIcons , creditIcon: creditIcons){
+    fileprivate func addItemsWithImage(image backgroundImage: UIImage? , _ cardStyle: cardStyle, chipIcon: chipIcons , creditIcon: creditIcons){
         self.addSubview(contentView)
         self.addSubview(backgroundImageView)
         self.addSubview(bankNameLabel)
@@ -173,6 +173,12 @@ class iCreditCard: UIView {
         self.addSubview(validThruLabel)
         self.addSubview(cardBrandName)
         self.addSubview(cardholderLabel)
+        
+        if let image = backgroundImage{
+            self.backgroundImageView.image = image
+        }else{
+            fillWithColor(color: cardColors.yelloway)
+        }
         
         if cardStyle == .withBothBankIcon{
             self.addSubview(cardBrandImageView)
