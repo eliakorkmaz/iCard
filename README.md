@@ -6,10 +6,15 @@
 # Screenshots
 
 `.chip1 - .blueway - .withBothBankIcon - .cirrusIcon ` **&**  `.chip3 - .blueway - .withBothBankIcon - .masterCardIcon `
+
 ![alt-text-1](https://github.com/eliakorkmaz/iCard/blob/master/screenShots/bothIconBlue.png?raw=true "") ![alt-text-2](https://github.com/eliakorkmaz/iCard/blob/master/screenShots/bothIconBlue2.png?raw=true "")
+
 `.chip2 - .yelloway - .googleWalletIcon - .cirrusIcon ` **&**  `.chip2 - .yelloway - .withDefaultTitles `
+
 ![alt-text-1](https://github.com/eliakorkmaz/iCard/blob/master/screenShots/bothIconYellow.png?raw=true "") ![alt-text-2](https://github.com/eliakorkmaz/iCard/blob/master/screenShots/defaultCard.png?raw=true "")
+
 `.chip1 - .cirrusIcon - .withBothBankIcon ` **&**  `.chip2 - .withBothBankIcon`
+
 ![alt-text-1](https://github.com/eliakorkmaz/iCard/blob/master/screenShots/photoBothIcon.png?raw=true "") ![alt-text-2](https://github.com/eliakorkmaz/iCard/blob/master/screenShots/photoBothImage.png?raw=true "")
 
 # Init
