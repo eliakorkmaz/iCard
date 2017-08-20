@@ -155,7 +155,6 @@ class iCreditCard: UIView {
     init(cardStyleWithBackgroundImage: cardStyle , withCardImage: UIImage?, pinIcon: chipIcons , creditIcons: creditIcons){
         super.init(frame: CGRect())
         addItemsWithImage(image: withCardImage, cardStyleWithBackgroundImage, chipIcon: pinIcon, creditIcon: creditIcons)
-        //addItemsWithImage(cardStyleWithBackgroundImage, chipIcon: pinIcon, creditIcon: creditIcons)
         settingForLayout(cardStyle: cardStyleWithBackgroundImage, cardVisual: cardVisual.withBackgroundImage, withSeparator: true)
     }
     

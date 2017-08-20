@@ -14,8 +14,7 @@ class MainViewController: UIViewController{
     fileprivate func test2(){
         let cardTest1: iCreditCard = iCreditCard(cardStyleWithBackgroundColor: .withBothBankIcon, withCardColors: .yelloway, pinIcon: .chip2, creditIcons: .googleWalletIcon)
         let cardTest2: iCreditCard = iCreditCard(cardStyleWithBackgroundColor: .withBothBankIcon, withCardColors: .blueway, pinIcon: .chip1, creditIcons: .cirrusIcon)
-        let cardTest3: iCreditCard = iCreditCard(cardStyleWithBackgroundColor: .withDefaultTitles, withCardColors: .yelloway, pinIcon: .chip2, creditIcons: .bitcoinIcon)
-        //let cardTest3: iCreditCard = iCreditCard(cardStyleWithBackgroundImage: .withBothBankIcon, withCardImage: UIImage(named:"simpleBackgroundImage"), pinIcon: .chip2, creditIcons: .maestroIcon)
+        let cardTest3: iCreditCard = iCreditCard(cardStyleWithBackgroundImage: .withBothBankIcon, withCardImage: UIImage(named:"simpleBackgroundImage"), pinIcon: .chip2, creditIcons: .maestroIcon)
          
         view.addSubview(cardTest1)
         view.addSubview(cardTest2)
