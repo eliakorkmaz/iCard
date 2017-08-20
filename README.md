@@ -169,7 +169,8 @@ case chip3
 | .chip2 | ![](https://github.com/eliakorkmaz/iCard/blob/master/iCard/Assets.xcassets/chip2.imageset/chip2.png?raw=true "") |
 | .chip3 | ![](https://github.com/eliakorkmaz/iCard/blob/master/iCard/Assets.xcassets/chip3.imageset/chip3.png?raw=true "") |
 
-
+### Font 
+I have used `HALTER__.ttf` font for `cardNumber`
 
 ### Installation
 
