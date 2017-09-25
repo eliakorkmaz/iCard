@@ -81,7 +81,7 @@ case withBackgroundColor
 case withBackgroundImage
 }
 ```
-`cardVisual` is used for choose card type. 
+`cardVisual` is used to choose card type. 
 
 ```swift
 public enum cardStyle{
@@ -91,7 +91,7 @@ case withBottomBankIcon
 case withBothBankIcon
 }
 ```
-`cardStyle` is used for set card style to different type. 
+`cardStyle` is used to set card style to different type. 
 
 ```swift
 public enum chipIcons{
@@ -100,7 +100,7 @@ case chip2
 case chip3
 }
 ```
-`chipIcons` is used for choose card chip icons, there are only 3 different chip icons
+`chipIcons` is used to choose card chip icons, there are only 3 different chip icons
 
 ```swift
 public enum creditIcons{
