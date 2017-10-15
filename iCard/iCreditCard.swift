@@ -249,14 +249,17 @@ class iCreditCard: UIView {
         }
         
         self.addSubview(topSeparator)
-        colors == .blueway ? fillWithColor(color: .blueway) : fillWithColor(color: .yelloway)
+        fillWithColor(color: colors)
     }
     
     fileprivate func fillWithColor(color: cardColors){
-        if color == .blueway{
+        switch color {
+        case .blueway:
             self.backgroundColor = UIColor(r: 28, g: 91, b: 140, alpha: 1)
-        }else{
+        case .yelloway:
             self.backgroundColor = UIColor(r: 182, g: 152, b: 65, alpha: 1)
+        case .greenway:
+            self.backgroundColor = UIColor(r: 46, g: 204, b: 113, alpha: 1)
         }
     }
     
@@ -400,6 +403,7 @@ class iCreditCard: UIView {
 public enum cardColors{
     case blueway
     case yelloway
+    case greenway
 }
 
 public enum cardVisual{
